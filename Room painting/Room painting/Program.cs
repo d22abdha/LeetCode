@@ -49,7 +49,6 @@ namespace Room_painting
                     if (cans >= canNeeds)
                     {
                         TotalWaste += (cans - canNeeds);
-                        canList.Remove(cans);
                         break;
                     }
                 }
@@ -57,8 +56,7 @@ namespace Room_painting
 
 
             Console.WriteLine(TotalWaste);
-           Console.ReadLine();
-
+            Console.ReadKey();
         }
 
     }
