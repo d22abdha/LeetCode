@@ -1,0 +1,30 @@
+# Ignore Visual Studio build folders
+bin/
+obj/
+
+# Ignore user settings and local environment files
+.vs/
+*.user
+*.suo
+
+# Ignore compiled files
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+
+# Ignore Visual Studio solution and config files
+*.sln
+*.config
+AssemblyInfo.cs
+
