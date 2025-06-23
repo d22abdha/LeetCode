@@ -21,7 +21,7 @@ def breadth_first_search(start_vertex, graph):
      /   \
     B     C
    / \     \
-  D   E     F
+  D   E     G
        \
         F
 
@@ -56,11 +56,17 @@ Next: 'E'
 
 visit_order = ['A', 'B', 'C', 'D', 'E']
 
-Add 'F' → ['F']
+Add 'F' → ['G', 'F']
+
+Next: 'G'
+
+visit_order = ['A', 'B', 'C', 'D', 'E', 'G']
+
+'G' has no neighbors → nothing added
 
 Next: 'F'
 
-visit_order = ['A', 'B', 'C', 'D', 'E', 'F']
+visit_order = ['A', 'B', 'C', 'D', 'E', 'G', 'F']
 
 'F' has no neighbors → done
 """
